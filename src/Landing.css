@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;  
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  body{
+    background-color: #E5E5E5;
+  }
+
+ 
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo{
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+.login{
+/* border: 1px solid black; */
+padding: 2rem 4rem;
+display: flex;
+width: fit-content;
+flex-direction: column;
+align-items: center;
+justify-content: start;
+background: #FFFFFF;
+box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+border-radius: 15px;
+}
+.login::before{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 15rem;
+    z-index: -1;
+    display: inline-block;
+  
+    width: 769.01px;
+    height: 13.44px;
+    border-radius: 100px;
+    background: #ced7ee;
+transform: rotate(-30deg);
+}
+.login::after{
+    content: "";
+    position: absolute;
+    right: 1rem;
+    top: 25rem;
+    z-index: -1;
+    display: inline-block;
+    background-color: #ced7ee;
+    width: 969.01px;
+    height: 13.44px;
+    border-radius: 100px;
+    transform: rotate(-30deg);
+
+}
+.login_logo{
+    background-color: #3766E8;
+    width: 11.05px;
+    height: 45.37px;
+    border-radius: 100px;
+    transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0);
+}
+.login_logo::before{
+    content: "";
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+
+    display: inline-block;
+    background-color: #3766E8;
+    width: 11.05px;
+    height: 27.37px;
+    border-radius: 100px;
+    /* transform: matrix(0.86, -0.52, 0.51, 0.86, 0, 0); */
+}
+.login_logo::after{
+    content: "";
+    position: absolute;
+    right:  1rem;
+    top: 0.5rem;
+    display: inline-block;
+    background-color: #3766E8;
+    width: 11.05px;
+    height: 27.37px;
+    border-radius: 100px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 1rem;
+}
+.input-group> label{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+.input-group> input {
+    width: 25rem;
+    font-size: 1rem;
+    border:1px solid #CED4DA ;
+    font-family: 'Inter', sans-serif;
+    padding: 0.5rem;
+    border-radius: 0.3rem !important;
+    color: #A0A0A0;
+}
+.input-group> select{
+    width: 26.5rem;
+    font-size: 1rem;
+    border:1px solid #CED4DA ;
+    font-family: 'Inter', sans-serif;
+    color: #A0A0A0;
+    padding: 0.5rem;
+    border-radius: 0.3rem !important
+}
+.sizeDetails{
+    width: 26.5rem;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    color: #A0A0A0;
+}
+.active{
+    background-color: #3766E8;
+    color: "#fff";
+}
+.sizeDetails > p{
+    display: inline-block;
+    background-color: #F0F0F0;
+    color: black;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.tagline{
+    margin-bottom: 0;
+}
+.details{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+button{
+    background-color: #3766E8;
+    border: none;
+    color: white;
+    padding: 1rem 1rem;
+    width: 80%;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+footer{
+    font-family: 'Inter', sans-serif;
+    color: black;
+    margin-top: 3rem;
+}
